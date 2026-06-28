@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统功能展示 · 模式视频号深度拆解</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="progress-bar"><div class="progress-fill"></div></div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <a href="dashboard.html" class="nav-brand">
+            <div class="icon">M</div>
+            <span>模式视频号深度拆解</span>
+        </a>
+        <div class="nav-right">
+            <a href="dashboard.html" class="nav-btn">📊 仪表板</a>
+            <a href="upload.html" class="nav-btn">📤 上传文档</a>
+            <button class="nav-btn" onclick="logout()">🚪 退出</button>
+        </div>
+    </nav>
+
+    <!-- 侧边栏 -->
+    <aside class="sidebar">
+        <div class="sidebar-section">
+            <div class="sidebar-title">深度拆解文档</div>
+            <ul class="sidebar-menu">
+                <li><a href="algorithm-deep-dive.html" class=""><span class="num">1</span>视频号算法深度拆解</a></li><li><a href="production-workflow.html" class=""><span class="num">2</span>模式营销视频制作全流程</a></li><li><a href="content-matrix.html" class=""><span class="num">3</span>内容矩阵与账号定位</a></li><li><a href="traffic-strategy.html" class=""><span class="num">4</span>曝光引流实战策略</a></li><li><a href="visual-style.html" class=""><span class="num">5</span>视觉风格与剪辑规范</a></li><li><a href="script-templates.html" class=""><span class="num">6</span>脚本模板库</a></li><li><a href="compliance-guide.html" class=""><span class="num">7</span>合规风险与规避指南</a></li><li><a href="system-demo.html" class="active"><span class="num">8</span>系统功能展示</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- 主内容 -->
+    <main class="main-content">
+        <div class="doc-header">
+            <span class="badge">技术能力</span>
+            <h1>系统功能展示</h1>
+            <div class="meta">
+                <span>📅 2026年最新版</span>
+                <span>🏷️ 6大模块 · 自动结算 · 源码交付</span>
+                <span>👁️ 需登录查看</span>
+            </div>
+        </div>
+
+        <div class="doc-body">
+            <p><h2>一、系统架构概览</h2></h3></h4></p>
+<p>#<h2>1.1 核心定位</p>
+<pre><code>
+模式策划 + 系统开发 = 一站式交付
+</code></pre>
+<p>你不是只卖软件，你是卖"商业模式+技术落地"的整体解决方案。</p>
+<p>#<h2>1.2 技术架构</p>
+<pre><code>
+┌─────────────────────────────────────────┐
+│              前端展示层                   │
+│  微信小程序 · H5 · APP · 管理后台       │
+├─────────────────────────────────────────┤
+│              业务逻辑层                   │
+│  会员管理 · 订单系统 · 分润结算 · 红包发放 │
+│  资金管理 · 数据统计 · 区域代理           │
+├─────────────────────────────────────────┤
+│              数据存储层                   │
+│  MySQL · Redis · 文件存储               │
+├─────────────────────────────────────────┤
+│              基础设施层                   │
+│  云服务器 · CDN · 负载均衡 · 安全防护    │
+└─────────────────────────────────────────┘
+</code></pre>
+<p>---</p>
+<p><h2>二、六大功能模块详解</p>
+<p>#<h2>2.1 会员管理模块</p>
+<p>**核心功能**：</p>
+<ul>
+<li>注册/登录（微信一键登录、手机号注册）</li>
+<li>邀请码系统（自动生成独立邀请码）</li>
+<li>层级自动晋升（基于消费/业绩/团队培育）</li>
+<li>签到积分（每日签到，积分商城兑换）</li>
+<li>会员画像（消费记录、团队结构、收益统计）</li>
+</ul>
+<p>**技术亮点**：</p>
+<ul>
+<li>邀请关系链自动追踪</li>
+<li>层级晋升实时判定</li>
+<li>积分系统与商城打通</li>
+</ul>
+<p>#<h2>2.2 订单系统模块</p>
+<p>**核心功能**：</p>
+<ul>
+<li>商品展示（多规格、多价格）</li>
+<li>购物车/立即购买</li>
+<li>支付对接（微信支付、支付宝）</li>
+<li>物流跟踪（对接主流物流API）</li>
+<li>收货确认（自动确认+手动确认）</li>
+<li>退款/售后（自动回滚分润）</li>
+</ul>
+<p>**技术亮点**：</p>
+<ul>
+<li>订单与分润自动关联</li>
+<li>退款时自动回滚已发放分润</li>
+<li>物流状态实时同步</li>
+</ul>
+<p>#<h2>2.3 分润结算模块（核心）</p>
+<p>**核心功能**：</p>
+<ul>
+<li>邀请分润（一级合规，20%-30%-50%循环）</li>
+<li>团队分红（全国市场营业额加权）</li>
+<li>红包发放（每日0点自动发放，隔天领取）</li>
+<li>区域补贴（按收货地址自动归属）</li>
+<li>自动结算（实时到账，可提现）</li>
+</ul>
+<p>**技术亮点**：</p>
+<ul>
+<li>分润计算引擎（基于销售额，非人数）</li>
+<li>分润记录可追溯、可审计</li>
+<li>支持退款自动回滚</li>
+<li>分润比例合规性检查</li>
+</ul>
+<p>**算法逻辑**：</p>
+<pre><code>
+# 伪代码示例
+def calculate_profit(order):
+    # 1. 获取邀请关系
+    inviter = get_inviter(order.user_id)
+
+    # 2. 计算邀请分润（循环机制）
+    cycle_count = get_invite_cycle_count(inviter)
+    rate = [0.2, 0.3, 0.5][cycle_count % 3]
+    invite_profit = order.amount * rate
+
+    # 3. 计算团队分红（加权）
+    team_bonus = calculate_team_bonus(inviter, order.amount)
+
+    # 4. 计算区域补贴
+    region_bonus = calculate_region_bonus(order.address, order.amount)
+
+    # 5. 发放分润
+    distribute_profit(inviter, invite_profit + team_bonus + region_bonus)
+</code></pre>
+<p>#<h2>2.4 资金管理模块</p>
+<p>**核心功能**：</p>
+<ul>
+<li>余额管理（实时余额、冻结金额、可用金额）</li>
+<li>提现申请（T+1到账，手续费自动扣除）</li>
+<li>流水记录（收支明细、分润记录、提现记录）</li>
+<li>对账功能（日/周/月对账报表）</li>
+</ul>
+<p>**技术亮点**：</p>
+<ul>
+<li>资金流水不可篡改</li>
+<li>提现审核流程（自动+人工）</li>
+<li>对账差异自动预警</li>
+</ul>
+<p>#<h2>2.5 数据统计模块</p>
+<p>**核心功能**：</p>
+<ul>
+<li>业绩看板（实时销售额、订单量、新增会员）</li>
+<li>团队分析（团队结构、活跃率、升级率）</li>
+<li>收益统计（个人收益、团队收益、分红收益）</li>
+<li>趋势预测（基于历史数据的销售预测）</li>
+</ul>
+<p>**技术亮点**：</p>
+<ul>
+<li>实时数据更新（延迟<1秒）</li>
+<li>多维度数据钻取</li>
+<li>数据可视化图表</li>
+<li>导出Excel/PDF报表</li>
+</ul>
+<p>#<h2>2.6 区域代理模块</p>
+<p>**核心功能**：</p>
+<ul>
+<li>地址归属（按收货地址自动判断区域）</li>
+<li>区域补贴（代理商1%区县、分公司2%城市）</li>
+<li>代理管理（代理申请、审核、业绩统计）</li>
+<li>进货折扣（代理商5折、分公司4折）</li>
+</ul>
+<p>**技术亮点**：</p>
+<ul>
+<li>地址解析API（精准到区县/城市）</li>
+<li>区域业绩自动统计</li>
+<li>代理层级自动管理</li>
+</ul>
+<p>---</p>
+<p><h2>三、技术亮点与差异化</p>
+<p>#<h2>3.1 自动结算引擎</p>
+<p>**核心优势**：</p>
+<ul>
+<li>每日0点自动计算并发放分润</li>
+<li>支持千万级订单的并发处理</li>
+<li>结算误差率<0.01%</li>
+<li>结算记录永久保存，可追溯</li>
+</ul>
+<p>**性能指标**：</p>
+<ul>
+<li>日结算订单量：100万+</li>
+<li>结算延迟：<5分钟</li>
+<li>系统可用性：99.9%</li>
+</ul>
+<p>#<h2>3.2 合规性检查</p>
+<p>**自动检查项**：</p>
+<ul>
+<li>层级深度检查（不超过3级）</li>
+<li>拨比比例检查（不超过70%）</li>
+<li>分润来源检查（基于销售额）</li>
+<li>敏感操作预警（异常提现、刷单）</li>
+</ul>
+<p>#<h2>3.3 多端适配</p>
+<p>**支持平台**：</p>
+<ul>
+<li>微信小程序（主入口）</li>
+<li>H5（分享传播）</li>
+<li>APP（iOS/Android）</li>
+<li>管理后台（PC端）</li>
+</ul>
+<p>**技术方案**：</p>
+<ul>
+<li>前端：Vue3 + UniApp（一套代码，多端运行）</li>
+<li>后端：Spring Boot / Node.js + MySQL</li>
+<li>部署：Docker + Kubernetes</li>
+</ul>
+<p>#<h2>3.4 源码交付</p>
+<p>**交付内容**：</p>
+<ul>
+<li>完整源代码（前端+后端+数据库）</li>
+<li>技术文档（架构设计、API文档、部署手册）</li>
+<li>操作手册（管理员、运营人员）</li>
+<li>培训服务（系统使用、运营指导）</li>
+</ul>
+<p>**交付标准**：</p>
+<ul>
+<li>代码注释率>30%</li>
+<li>单元测试覆盖率>80%</li>
+<li>提供1年免费维护</li>
+<li>终身技术支持（付费）</li>
+</ul>
+<p>---</p>
+<p><h2>四、交付流程</p>
+<p>#<h2>4.1 标准交付流程（8周）</p>
+<pre><code>
+Week 1-2：需求诊断
+  → 模式合规性评估
+  → 功能需求确认
+  → 技术方案设计
+
+Week 3-4：模式设计
+  → 架构设计文档
+  → 分润算法设计
+  → 合规性审查
+
+Week 5-6：系统开发
+  → 前端开发
+  → 后端开发
+  → 接口联调
+
+Week 7：测试上线
+  → 功能测试
+  → 性能测试
+  → 安全测试
+  → 上线部署
+
+Week 8：培训交付
+  → 系统培训
+  → 运营指导
+  → 源码交付
+  → 维护交接
+</code></pre>
+<p>#<h2>4.2 定制开发流程</p>
+<p>对于有特殊需求的客户：</p>
+<ul>
+<li>需求变更管理（变更申请→评估→确认→实施）</li>
+<li>敏捷开发（2周一个迭代，持续交付）</li>
+<li>客户验收（每个迭代结束，客户验收）</li>
+</ul>
+<p>---</p>
+<p><h2>五、服务承诺</p>
+<p>#<h2>5.1 技术保障</p>
+<ul>
+<li>系统可用性：99.9%（全年停机<8.76小时）</li>
+<li>数据安全：加密存储、定期备份、灾难恢复</li>
+<li>性能保障：支持10万并发用户</li>
+<li>合规保障：模式设计符合法律法规</li>
+</ul>
+<p>#<h2>5.2 售后服务</p>
+<ul>
+<li>1年免费维护（Bug修复、小功能优化）</li>
+<li>7×24小时技术支持</li>
+<li>定期系统巡检（每月1次）</li>
+<li>紧急响应（2小时内响应，24小时内解决）</li>
+</ul>
+<p>#<h2>5.3 增值服务</p>
+<ul>
+<li>运营指导（模式优化、活动策划）</li>
+<li>数据分析（定期数据报告、优化建议）</li>
+<li>培训服务（管理员培训、运营培训）</li>
+<li>二次开发（新功能定制、系统升级）</li>
+</ul>
+<p>---</p>
+<p><h2>六、客户案例（示例）</p>
+<p>#<h2>6.1 案例一：美妆品牌分销系统</p>
+<p>**客户背景**：</p>
+<ul>
+<li>行业：美妆护肤</li>
+<li>需求：搭建分销体系，拓展私域渠道</li>
+<li>预算：15万</li>
+</ul>
+<p>**解决方案**：</p>
+<ul>
+<li>模式设计：2级分销+区域代理+团队分红</li>
+<li>系统开发：小程序+H5+管理后台</li>
+<li>交付周期：6周</li>
+</ul>
+<p>**项目成果**：</p>
+<ul>
+<li>上线3个月，月流水破500万</li>
+<li>发展分销商2000+</li>
+<li>系统稳定运行，0故障</li>
+</ul>
+<p>#<h2>6.2 案例二：大健康项目模式升级</p>
+<p>**客户背景**：</p>
+<ul>
+<li>行业：大健康</li>
+<li>需求：原有模式不合规，需改造升级</li>
+<li>预算：20万</li>
+</ul>
+<p>**解决方案**：</p>
+<ul>
+<li>模式诊断：发现3个合规风险点</li>
+<li>模式改造：重新设计合规架构</li>
+<li>系统开发：全新系统替换旧系统</li>
+<li>数据迁移：历史数据无损迁移</li>
+</ul>
+<p>**项目成果**：</p>
+<ul>
+<li>规避合规风险，通过平台审核</li>
+<li>上线后月流水增长300%</li>
+<li>客户满意度100%</li>
+</ul>
+<p>---</p>
+<p><h2>七、报价参考</p>
+<p>#<h2>7.1 标准产品报价</p>
+<table>
+<tr><th>版本</th><th>价格</th><th>功能</th><th>交付周期</th></tr>
+<tr><td>**基础版**</td><td>3-5万</td><td>标准功能（会员、订单、分润、提现）</td><td>4-6周</td></tr>
+<tr><td>**专业版**</td><td>8-15万</td><td>定制功能+红包+区域代理+数据统计</td><td>6-8周</td></tr>
+<tr><td>**企业版**</td><td>20万+</td><td>全定制+源码交付+终身维护</td><td>8-12周</td></tr>
+</table>
+<p>#<h2>7.2 影响价格的因素</p>
+<ul>
+<li>功能复杂度（标准功能vs定制功能）</li>
+<li>定制程度（UI定制、功能定制、流程定制）</li>
+<li>交付周期（标准周期vs加急）</li>
+<li>售后服务（标准维护vs终身维护）</li>
+<li>源码交付（是否包含源码）</li>
+</ul>
+<blockquote><p>**核心卖点**：你不是卖软件的，你是卖"商业模式+技术落地"的整体解决方案。客户买的不是功能，是"合规、稳定、能落地"的保障。</p></blockquote>
+        </div>
+    </main>
+
+    
+    <div class="action-bar">
+        <button class="action-btn" onclick="printPage()">🖨️ 打印/PDF</button>
+        <a class="action-btn primary" href="#" onclick="downloadMarkdown('system-demo'.md);return false;">⬇️ 下载文档</a>
+    </div>
+    
+
+    <script src="static/app.js"></script>
+</body>
+</html>
