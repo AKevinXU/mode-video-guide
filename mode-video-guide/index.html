@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 · 模式视频号深度拆解</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body class="login-page">
+    <div class="login-card">
+        <div class="login-logo">
+            <div class="icon">M</div>
+            <h1>模式视频号深度拆解</h1>
+            <p>模式策划 & 系统开发 · 专业内容库</p>
+        </div>
+
+        <div class="input-group">
+            <label>访问密码</label>
+            <input type="password" id="password" placeholder="请输入访问密码" autocomplete="off">
+        </div>
+
+        <button class="btn-primary" id="loginBtn" onclick="login()">进入系统</button>
+
+        <div class="error-msg" id="error"></div>
+
+        <div class="login-footer">
+            <p>🔒 受保护内容 · 需授权访问</p>
+            <p style="margin-top:8px;opacity:0.6;">默认密码：mode2026（可在 app.js 中修改）</p>
+        </div>
+    </div>
+
+    <script src="static/app.js"></script>
+</body>
+</html>
